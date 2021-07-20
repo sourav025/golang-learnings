@@ -1,0 +1,38 @@
+# get all books
+GET http://localhost:3000/api/books HTTP/1.1
+
+# Get a single book
+GET http://localhost:3000/api/books/98498081 HTTP/1.1
+
+# Create a book
+POST http://localhost:3000/api/books HTTP/1.1
+
+{
+    "title": "Book-create",
+    "isbn": "758585",
+    "author": {
+        "firstname": "Autho2first",
+        "lastname": "Author2last"
+    }
+}
+
+#Delete book
+DELETE http://localhost:3000/api/books/98498081 HTTP/1.1
+
+
+# Update a book
+PUT http://localhost:3000/api/books/98498081 HTTP/1.1
+PUT http://localhost:3000/api/books/98498081 HTTP/1.1
+PUT http://localhost:3000/api/books/98498081 HTTP/1.1
+PUT http://localhost:3000/api/books/98498081 HTTP/1.1
+PUT http://localhost:3000/api/books/98498081 HTTP/1.1
+
+{
+
+    "title": "Book-create",
+    "isbn": "updatedisbm",
+    "author": {
+        "firstname": "Autho2first",
+        "lastname": "Author2last"
+    }
+}
