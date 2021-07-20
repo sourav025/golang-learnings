@@ -22,10 +22,6 @@ DELETE http://localhost:3000/api/books/98498081 HTTP/1.1
 
 # Update a book
 PUT http://localhost:3000/api/books/98498081 HTTP/1.1
-PUT http://localhost:3000/api/books/98498081 HTTP/1.1
-PUT http://localhost:3000/api/books/98498081 HTTP/1.1
-PUT http://localhost:3000/api/books/98498081 HTTP/1.1
-PUT http://localhost:3000/api/books/98498081 HTTP/1.1
 
 {
 
